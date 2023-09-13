@@ -1,10 +1,22 @@
 body {
-  background: #fcfaf9;
+  background-color: #fcfaf9;
+  background-image: url("../../images/bg-main-desktop.svg"),
+    url("../../images/bg-pattern-1.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 312px;
+  background-position: left top, right top -40px;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
 }
 
 a {

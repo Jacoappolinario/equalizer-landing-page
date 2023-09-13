@@ -1,0 +1,43 @@
+.plan {
+  border-radius: 0.75rem;
+  background: #191826;
+  height: 600px;
+  background-image: url("../../images/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: 336px -40px;
+  position: relative;
+  margin-bottom: 12.62rem;
+}
+
+.plan img {
+  width: 312px;
+  position: absolute;
+  top: -213px;
+  left: 102px;
+}
+
+.plan-content {
+  width: 446px;
+  height: 625px;
+  background: #fa7453;
+  padding: 3.63rem 3.37rem 3rem;
+  box-sizing: border-box;
+  border-radius: 0.75rem;
+  position: absolute;
+  top: 90px;
+  right: 95px;
+  display: grid;
+  align-items: center;
+}
+
+.plan-content h3 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font: 700 4.0625rem/0.8 "IBM Plex Sans", sans-serif;
+}
+
+.plan-content span {
+  font: 400 1.25rem/1.6 "IBM Plex Sans", sans-serif;
+  letter-spacing: -0.0125rem;
+}
