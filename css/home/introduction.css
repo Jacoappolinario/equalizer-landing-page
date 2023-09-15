@@ -6,6 +6,25 @@
   padding-bottom: 20.06rem;
 }
 
+.introduction h1 {
+  max-width: 20ch;
+}
+
 .introduction p {
   max-width: 70ch;
+}
+
+@media (max-width: 800px) {
+  .introduction {
+    gap: 1.75rem;
+    padding-bottom: 15.56rem;
+  }
+
+  .introduction h1 {
+    max-width: 15ch;
+  }
+
+  .introduction p {
+    max-width: 47ch;
+  }
 }
