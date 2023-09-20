@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: cover, 312px;
   background-position: left top, right top -40px;
+  margin: 0px;
 }
 
 img {
@@ -29,5 +30,13 @@ a {
       url("../../images/bg-pattern-1.svg");
     background-size: 800px, 266.667px;
     background-position: left top, right -35.67px top -32px;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url("../../images/bg-main-mobile.svg");
+    background-size: 400px;
+    background-position: right top;
   }
 }

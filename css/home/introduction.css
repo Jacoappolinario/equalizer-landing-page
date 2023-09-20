@@ -17,6 +17,7 @@
 @media (max-width: 800px) {
   .introduction {
     gap: 1.75rem;
+    padding-top: 2.07rem;
     padding-bottom: 15.56rem;
   }
 
@@ -26,5 +27,17 @@
 
   .introduction p {
     max-width: 47ch;
+  }
+}
+
+@media (max-width: 400px) {
+  .introduction {
+    gap: 1.25rem;
+    padding-top: 0.13rem;
+    padding-bottom: 10.38rem;
+  }
+
+  .introduction p {
+    max-width: 34.55ch;
   }
 }

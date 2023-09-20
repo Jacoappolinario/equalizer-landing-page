@@ -28,8 +28,18 @@
 
 @media (max-width: 800px) {
   .footer-content {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .footer-content p {
+    max-width: 31ch;
   }
 }

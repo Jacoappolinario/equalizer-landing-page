@@ -61,7 +61,7 @@
     background-size: 280px;
     background-position: left 229px top -31px;
     margin-bottom: 11.44rem;
-    max-width: 696px;
+    width: 696px;
   }
 
   .plan img {
@@ -89,5 +89,32 @@
 
   .plan-content h3 {
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .plan {
+    background-position: top center;
+    margin-bottom: 24.37rem;
+    width: 400px;
+  }
+
+  .plan img {
+    width: 208.972px;
+    top: -98px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .plan-content {
+    width: 400px;
+    padding: 3rem 2.31rem;
+    top: 380px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .plan-content p {
+    font-size: 1.125rem;
   }
 }
