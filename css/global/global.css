@@ -1,5 +1,11 @@
 body {
-  background: #fcfaf9;
+  background-color: #fcfaf9;
+  background-image: url("../../images/bg-main-desktop.svg"),
+    url("../../images/bg-pattern-1.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 312px;
+  background-position: left top, right top -40px;
+  margin: 0px;
 }
 
 img {
@@ -7,6 +13,30 @@ img {
   display: block;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
 a {
   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url("../../images/bg-main-tablet.svg"),
+      url("../../images/bg-pattern-1.svg");
+    background-size: 800px, 266.667px;
+    background-position: left top, right -35.67px top -32px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url("../../images/bg-main-mobile.svg");
+    background-size: 400px;
+    background-position: right top;
+  }
 }

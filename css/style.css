@@ -3,3 +3,8 @@
 @import "./utilities/colors.css";
 
 @import "./utilities/componentes.css";
+
+@import "./home/header.css";
+@import "./home/introduction.css";
+@import "./home/plan.css";
+@import "./home/footer.css";

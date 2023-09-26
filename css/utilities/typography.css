@@ -14,3 +14,33 @@
   font: 700 5.5rem/1 "IBM Plex Sans", sans-serif;
   letter-spacing: -0.0625rem;
 }
+
+@media (max-width: 800px) {
+  .font-m {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+
+  .font-l {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+
+  .font-xl {
+    font-size: 4rem;
+    letter-spacing: -0.04544rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-m {
+    font-size: 1rem;
+    line-height: 1.62;
+  }
+
+  .font-xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02844rem;
+  }
+}

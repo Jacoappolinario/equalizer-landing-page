@@ -1,0 +1,120 @@
+.plan {
+  border-radius: 0.75rem;
+  background: #191826;
+  height: 600px;
+  background-image: url("../../images/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: 336px -40px;
+  position: relative;
+  margin-bottom: 12.62rem;
+}
+
+.plan img {
+  width: 312px;
+  position: absolute;
+  top: -213px;
+  left: 102px;
+}
+
+.plan-content {
+  width: 446px;
+  height: 625px;
+  background: #fa7453;
+  padding: 3.63rem 3.37rem 3rem;
+  box-sizing: border-box;
+  border-radius: 0.75rem;
+  position: absolute;
+  top: 90px;
+  right: 95px;
+  display: grid;
+  align-content: center;
+}
+
+.plan-content h2 {
+  margin-bottom: 1.37rem;
+}
+
+.plan-content p {
+  max-width: 27.5ch;
+  margin-bottom: 2.44rem;
+}
+
+.plan-content h3 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font: 700 4.0625rem/0.8 "IBM Plex Sans", sans-serif;
+  margin-bottom: 2.87rem;
+}
+
+.plan-content span {
+  font: 400 1.25rem/1.6 "IBM Plex Sans", sans-serif;
+  letter-spacing: -0.0125rem;
+}
+
+.plan-content a + a {
+  margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .plan {
+    background-size: 280px;
+    background-position: left 229px top -31px;
+    margin-bottom: 11.44rem;
+    width: 696px;
+  }
+
+  .plan img {
+    width: 270.206px;
+    top: -138px;
+    left: 64px;
+  }
+
+  .plan-content {
+    width: 399px;
+    height: 546px;
+    padding: 3rem;
+    top: 150px;
+    right: 58px;
+  }
+
+  .plan-content h2 {
+    margin-bottom: 0.75rem;
+  }
+
+  .plan-content p {
+    max-width: 28ch;
+    margin-bottom: 2.25rem;
+  }
+
+  .plan-content h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .plan {
+    background-position: top center;
+    margin-bottom: 24.37rem;
+    width: 400px;
+  }
+
+  .plan img {
+    width: 208.972px;
+    top: -98px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .plan-content {
+    width: 400px;
+    padding: 3rem 2.31rem;
+    top: 380px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .plan-content p {
+    font-size: 1.125rem;
+  }
+}

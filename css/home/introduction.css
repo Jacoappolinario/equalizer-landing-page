@@ -1,0 +1,43 @@
+.introduction {
+  display: grid;
+  gap: 2.5rem;
+  justify-items: start;
+  padding-top: 4.07rem;
+  padding-bottom: 20.06rem;
+}
+
+.introduction h1 {
+  max-width: 20ch;
+}
+
+.introduction p {
+  max-width: 70ch;
+}
+
+@media (max-width: 800px) {
+  .introduction {
+    gap: 1.75rem;
+    padding-top: 2.07rem;
+    padding-bottom: 15.56rem;
+  }
+
+  .introduction h1 {
+    max-width: 15ch;
+  }
+
+  .introduction p {
+    max-width: 47ch;
+  }
+}
+
+@media (max-width: 400px) {
+  .introduction {
+    gap: 1.25rem;
+    padding-top: 0.13rem;
+    padding-bottom: 10.38rem;
+  }
+
+  .introduction p {
+    max-width: 34.55ch;
+  }
+}
