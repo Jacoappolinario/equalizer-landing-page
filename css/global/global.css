@@ -33,7 +33,7 @@ a {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   body {
     background-image: url("../../images/bg-main-mobile.svg");
     background-size: 400px;
